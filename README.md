@@ -58,7 +58,10 @@ newbalanceDest: Recipient's balance after the transaction.
 isFraud: Binary label (1 for fraudulent, 0 for non-fraudulent).
 isFlaggedFraud: Indicates if the transaction was flagged as fraudulent (transfers > 200,000).
 
-Note: Due to the large size of the dataset, it is not included in the repository. You can download it from [source link, if applicable] or use your own dataset with a similar structure.
+Note: Due to the large size of the dataset, it is not included in the repository. 
+You can download it from https://drive.google.com/file/d/1negPlIMCT62oVpixMPEWrZHt7iWnJtgL/view?usp=sharing or use your own dataset with a similar structure.
+
+
 Methodology
 
 Data Preprocessing:
