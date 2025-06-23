@@ -1,0 +1,75 @@
+```
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+virtualenv/
+
+# Jupyter Notebook
+*.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large data files (exclude the dataset)
+data/*.csv
+# Optionally, allow the specific dataset if using Git LFS
+!data/Fraud_detection.csv
+
+# Logs and temporary files
+*.log
+*.log.*
+*.tmp
+*.bak
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+*.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python package and build files
+*.egg-info/
+dist/
+build/
+*.egg
+wheels/
+*.whl
+
+# Cache files
+*.cache
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Environment and dependency files
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Pipfile.lock
+
+# Large compressed files (if applicable)
+*.zip
+*.gz
+*.tar
+*.tar.gz
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*.prof
+```
